@@ -19,7 +19,7 @@ fn main() {
     let floatingtruncated=5.0/3.0;
     println!("5/3={floatingtruncated}\tI set it to a float by putting decimals (5.0/3.0).");
     let rock=10;
-    let mixnumbers=rock as f64 +floatingtruncated;
+    let mixnumbers=rock as f64 +floatingtruncated; //"as" is key.
     println!("Mixing numbers gives me {mixnumbers}");
 
 }
