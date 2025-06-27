@@ -22,4 +22,12 @@ fn main() {
     let mixnumbers=rock as f64 +floatingtruncated; //"as" is key.
     println!("Mixing numbers gives me {mixnumbers}");
 
+    println!("\nBOOLEAN\nJust setting a couple in the code. It's pretty straight-forward.");
+    let t=true;
+    let f: bool=false;
+
+    println!("\nCHARACTER");
+    let c='c';
+    println!("The caracter is \"{c}\"");
+
 }
