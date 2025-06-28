@@ -44,4 +44,9 @@ fn main() {
     quint.3=35;
     println!("Put a new value in fourth element: {0}",quint.3);
     println!("You can (assuming you declared it mutable in the first place).");
+    println!("\n### Array Type");
+    let daarray=[1,2,3,4,5];
+    let differentarray=["Beso","Luna","Nami"];
+    println!("Our youngest cat it {}. Our girl cat is {}.",differentarray[2],differentarray[1]);
+    println!("WHAT ABOUT STRINGS?!?");
 }
