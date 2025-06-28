@@ -38,7 +38,10 @@ fn main() {
     println!("Accessing the third element: {0}",trey.2);
     println!("Accessing the second element: {0}",trey.1);
     println!("Can a tuple have more than three elements?");
-    let quint: (i32,i32,i32,i32,i32)=(10,20,30,40,50);
+    let mut quint: (i32,i32,i32,i32,i32)=(10,20,30,40,50);
     println!("Fifth Element: {0}",quint.4);
     println!("Yep!");
+    quint.3=35;
+    println!("Put a new value in fourth element: {0}",quint.3);
+    println!("You can (assuming you declared it mutable in the first place).");
 }
